@@ -6,7 +6,7 @@ export interface Mappable {
   markerContent(): string;
 }
 
-export class CustomMap implements Mappable {
+export class CustomMap {
   private googleMap: google.maps.Map;
 
   constructor(mapDivId: string) {
